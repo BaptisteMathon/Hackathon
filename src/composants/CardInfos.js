@@ -16,8 +16,8 @@ const PaiementForm = () => {
         <form className="payment-form">
           <div className="payment-fields">
             <div className="input-group">
-              <label htmlFor="cardNumber">Numéro de carte</label>
-              <input
+              <label htmlFor="cardNumber" className="payment-label">Numéro de carte</label>
+              <input className="payment-input"
                 type="text"
                 id="cardNumber"
                 value={cardNumber}
@@ -28,8 +28,8 @@ const PaiementForm = () => {
               />
             </div>
             <div className="input-group half-width">
-              <label htmlFor="expiryDate">Date d'expiration</label>
-              <input
+              <label htmlFor="expiryDate" className="payment-label">Date d'expiration</label>
+              <input className="payment-input"
                 type="text"
                 id="expiryDate"
                 value={expiryDate}
@@ -40,8 +40,8 @@ const PaiementForm = () => {
               />
             </div>
             <div className="input-group half-width">
-              <label htmlFor="cvv">Cryptogramme</label>
-              <input
+              <label htmlFor="cvv" className="payment-label">Cryptogramme</label>
+              <input className="payment-input"
                 type="text"
                 id="cvv"
                 value={cvv}

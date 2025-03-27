@@ -57,12 +57,12 @@ h2 {
   margin-right: 0;
 }
 
-label {
+.payment-label {
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-input {
+.payment-input {
   width: 100%;
   padding: 10px;
   font-size: 16px;
@@ -72,7 +72,7 @@ input {
   box-shadow: 2px 2px 2px gray;
 }
 
-input:focus {
+.payment-input:focus {
   outline: none;
   border-color: #007bff;
 }
