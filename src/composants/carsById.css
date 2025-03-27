@@ -1,0 +1,142 @@
+.h1-car-name {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.description p {
+    font-weight: bold;
+}
+
+.div-img-description {
+    width: 50%;
+    margin: 0 5%
+}
+
+.carIdDetail {
+    display: flex;    
+}
+
+.div-detail-booking {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.price-day {
+    margin: 25px;
+    font-size: 1.5em;
+}
+
+.price-day span {
+    font-weight: bold;
+}
+
+.booking {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.booking div {
+    padding: 1% 7%;
+}
+
+.debut {
+    border: 1px solid black;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.debut input {
+    border: none;
+    width: 100%;
+    font-size: 17px;
+    color: #707070;
+}
+
+.debut p {
+    margin: 10px;
+}
+
+.debut input:focus {
+    outline: none;
+    border: none;
+    color: #707070;
+}
+
+.fin {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.fin input {
+    border: none;
+    width: 100%;
+    font-size: 17px;
+    color: #707070;
+}
+
+.fin input:focus {
+    outline: none;
+    border: none;
+    color: #707070;
+}
+
+.fin p {
+    margin: 10px;
+}
+
+.price-total-day
+{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.frais-service {
+    display: flex;
+    justify-content:space-between;
+    margin: 0 15px;
+    font-size: 1.2em;
+    padding-bottom: 40px;
+    border-bottom: 1px solid gray;
+}
+
+.total {
+    font-size: 1.2em;
+    margin: 30px 15px;
+}
+
+.total span {
+    font-weight: bold;
+}
+
+.book-button {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 1.2em;
+    padding: 5px 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.book-button:hover {
+    background-color: #ff4d4d;
+}

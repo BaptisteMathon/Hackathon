@@ -1,7 +1,9 @@
 import {useParams} from "react-router-dom";
+import CarsById from "../composants/carsById";
 
 function Descriptif() {
     const {carId} = useParams();
+    console.log("idCar", carId);
 
     return (
         <div>
@@ -12,10 +14,10 @@ function Descriptif() {
                 <a href="/detailCar">Descriptif Voiture</a>
                 <a href="/profil">Profil</a>
                 <a href="/auth">Authentification</a>
-                <a href='/paiement'>Paiement</a>
+                
             </nav>
 
-            <p>Id de la voiture : {carId}</p>
+            <CarsById idCar={carId}/>
         </div>
 
     );
