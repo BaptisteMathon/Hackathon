@@ -1,0 +1,89 @@
+.payment-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 5px 5px 5px gray;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visa-logo {
+  width: 50px;
+  padding-top: 20px;
+  height: auto;
+}
+
+.separator {
+  border: none;
+  border-top: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.payment-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-fields {
+  padding-right: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group.half-width {
+  width: 48%;
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.input-group.half-width:last-child {
+  margin-right: 0;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-radius: 4px;
+  margin-top: 5px;
+  box-shadow: 2px 2px 2px gray;
+}
+
+input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.submit-button {
+  padding: 12px;
+  font-size: 18px;
+  background-color: #E82C30;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}

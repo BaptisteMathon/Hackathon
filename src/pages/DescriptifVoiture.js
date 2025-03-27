@@ -12,6 +12,7 @@ function Descriptif() {
                 <a href="/detailCar">Descriptif Voiture</a>
                 <a href="/profil">Profil</a>
                 <a href="/auth">Authentification</a>
+                <a href='/paiement'>Paiement</a>
             </nav>
 
             <p>Id de la voiture : {carId}</p>
