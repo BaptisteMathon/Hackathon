@@ -25,6 +25,10 @@
     margin-left: 20px;
 }
 
+.search-border{
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+
 .search {
     display: flex;
     align-items: center;
@@ -140,4 +144,34 @@ input[type="date"] {
     outline: none;
     border: none;
     color: #707070;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 3%;
+}
+
+.filters div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #c2c2c2;
+    border-radius: 30px;
+    padding: 0 25px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.filter img {
+    margin-right: 15px; 
 }
