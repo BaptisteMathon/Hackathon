@@ -11,7 +11,7 @@ const AppRouter = () => {
             <Router>
                     <Routes>
                         <Route path="/" element={<Accueil />} />
-                        <Route path="/detailCar" element={<DescriptifVoiture/>}/>
+                        <Route path="/detailCar/:carId" element={<DescriptifVoiture/>}/>
                         <Route path="/profil" element={<Profil />} />
                         <Route path="/auth" element={<Authentification />} />
                     </Routes>

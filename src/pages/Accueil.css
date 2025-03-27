@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    background-color: rgb(174, 174, 174);
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.user-menu{
+    margin-left: 5px;
+}
+
+.user-user {
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 20px;
+}
