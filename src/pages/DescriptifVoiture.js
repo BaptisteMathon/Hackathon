@@ -7,15 +7,14 @@ function Descriptif() {
 
     return (
         <div>
-            <h1>Descriptif Voiture</h1>
 
-            <nav>
-                <a href="/">Accueil</a>
-                <a href="/detailCar">Descriptif Voiture</a>
-                <a href="/profil">Profil</a>
-                <a href="/auth">Authentification</a>
-                
-            </nav>
+            <div class="header">
+                <a href="/"><img src="/MclaRent.png" alt="MclaRent" width={"250px"}/></a>
+                <div class="user">
+                <img src="/menu.png" alt="menu" width={"30px"} class="user-menu"/>
+                <img src="/user.png" alt="user" width={"30px"} class="user-user"/>
+                </div>
+            </div>
 
             <CarsById idCar={carId}/>
         </div>
