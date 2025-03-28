@@ -86,7 +86,7 @@ function CarById({idCar}){
 
                         <p class="total">Total : <span>{total}€</span></p>
 
-                        <button class="book-button" id={car._id}>Réserver</button>
+                        <button class="book-button" id={car._id} onClick={() => window.location.href = `/paiement/${car._id}`}>Réserver</button>
                     </div>
                 </div>
             </div>

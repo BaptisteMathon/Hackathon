@@ -1,5 +1,6 @@
 import CardInfos from '../composants/CardInfos';
 import Recap from '../composants/Recap';
+import './Paiement.css';
 
 function Paiement() {
 
@@ -7,7 +8,7 @@ function Paiement() {
         
         <div>
          <div class="header">
-            <img src="/MclaRent.png" alt="MclaRent" width={"250px"}/>
+         <a href="/"><img src="/MclaRent.png" alt="MclaRent" width={"250px"}/></a>
             <h1>Paiement</h1>
             <div class="user">
               <img src="/menu.png" alt="menu" width={"30px"} class="user-menu"/>
