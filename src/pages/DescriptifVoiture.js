@@ -1,9 +1,13 @@
 import {useParams} from "react-router-dom";
 import CarsById from "../composants/carsById";
+import { useEffect } from "react";
 
 function Descriptif() {
     const {carId} = useParams();
-    console.log("idCar", carId);
+
+    useEffect(() => {
+        document.title = "Flash MclaRent - Descriptif voiture";
+    },)
 
     return (
         <div>

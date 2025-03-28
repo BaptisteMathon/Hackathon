@@ -54,7 +54,7 @@ function CarById({idCar}){
     } else {
         return (
             <div>
-                <h1 class="h1-car-name">{car.nameCar}</h1>
+                <h1 class="h1-car-name" id="nameCar">{car.nameCar}</h1>
 
                 <div class="carIdDetail">
                     <div class="div-img-description">
@@ -86,7 +86,7 @@ function CarById({idCar}){
 
                         <p class="total">Total : <span>{total}€</span></p>
 
-                        <button class="book-button">Réserver</button>
+                        <button class="book-button" id={car._id}>Réserver</button>
                     </div>
                 </div>
             </div>

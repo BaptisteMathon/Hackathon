@@ -6,6 +6,8 @@
 
 .description p {
     font-weight: bold;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .div-img-description {
@@ -22,6 +24,8 @@
     border-radius: 15px;
     width: 25%;
     margin-left: 5%;
+    max-height: 550px;
+    box-shadow: 7px 8px 7px -4px #6b6b6b;
 }
 
 .price-day {
