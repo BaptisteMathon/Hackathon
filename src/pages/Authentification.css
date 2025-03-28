@@ -1,0 +1,109 @@
+/* Styles globaux */
+body {
+    background-color: #f3f4f6; /* gris clair */
+  }
+  
+  .auth-logo {
+    width: 120px;  /* Ajuste la taille selon ton besoin */
+    display: block;
+    margin: 0 auto 15px auto; /* Centre le logo */
+  }
+
+  .auth-input-container {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  /* Conteneur principal */
+  .auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f4f6;
+  }
+  
+  /* Carte de connexion */
+  .auth-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+  }
+  
+  /* Logo */
+  .auth-logo {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .auth-logo span {
+    color: #cc3300; /* Couleur du mot "Mcla" */
+  }
+  
+  .auth-logo b {
+    color: #ffcc00; /* Couleur du mot "Rent" */
+  }
+  
+  /* Titre */
+  .auth-title {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  /* Messages d'erreur */
+  .auth-error {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  /* Champs de formulaire */
+  .auth-input {
+    width: 100%;
+    padding: 10px; /* Ajout de padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    box-sizing: border-box; /* Empêche le padding d'affecter la largeur */
+  }
+  
+  /* Boutons */
+  .auth-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block; /* S'assurer que chaque bouton prend toute la ligne */
+  }
+  
+  .auth-button + .auth-button {
+    margin-top: 10px; /* Ajoute un espace entre les boutons */
+  }
+
+  .auth-button.primary {
+    background: #e60000; /* Rouge */
+    color: white;
+  }
+  
+  .auth-button.primary:hover {
+    background: #cc0000;
+  }
+  
+  .auth-button.secondary {
+    background: #008000; /* Vert */
+    color: white;
+  }
+  
+  .auth-button.secondary:hover {
+    background: #006600;
+  }
+  
+  .auth-switch {
+    margin-top: 15px; /* Espace entre le formulaire et le bouton secondaire */
+  }
