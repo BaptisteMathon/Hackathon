@@ -1,8 +1,12 @@
+// import CardInfos from '../composants/CardInfos';
 import CardInfos from '../composants/CardInfos';
 import Recap from '../composants/Recap';
+import {useParams} from "react-router-dom";
 import './Paiement.css';
 
 function Paiement() {
+
+    const {carId} = useParams();
 
     return (
         
@@ -23,7 +27,7 @@ function Paiement() {
         </div>
         <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
             <CardInfos/>
-            <Recap/>
+            <Recap idCar={carId}/>
         </div>
             
         </div>
