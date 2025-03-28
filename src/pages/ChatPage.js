@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import ChatBox from "../composants/ChatBox";
-import InputField from "../composants/InputField";
 import "./ChatPage.css";
 
 function ChatPage() {
@@ -22,7 +21,6 @@ function ChatPage() {
 
         <ChatBox searchTerm={searchTerm} />
 
-        <InputField />
       </div>
     </div>
   );
